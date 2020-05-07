@@ -9,8 +9,6 @@ def TaxiRegister(taxiList):
     if len(taxiList) < 79:
         taxiList.append(Z)
         print("Taxi added successfully")
-    elif len(taxiList) <= 10:
-        print("Please request more Taxis to this location\n")
     else:
         print("We don't have enought space for more taxis\n")
     print("\n{}\n".format(taxiList))
